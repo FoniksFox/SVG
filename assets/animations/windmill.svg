@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+    width="200" height="200"
+    viewBox="-100 -5 205 210"
+    fill="slategray"
+    fill-opacity="0.8"
+    stroke="slateblue">
+    <path d="M10,190 L5,70 A5,5,180,0,0,-5,70 L-10,190 A10,10,180,0,0,10,190 Z"/>
+    <defs>
+        <path id="windmill-blade" d="M5,50 L2,2 A2,2,180,0,0,-2,2 L-5,50 A5,5,180,0,0,5,50 Z"
+        transform="translate(0,-60)"/>
+    </defs>
+    <g transform="translate(0,60)">
+        <animateTransform
+            attributeName="transform"
+            type="rotate"
+            from="0 0 0"
+            to="360 0 0"
+            dur="2s"
+            repeatCount="indefinite"
+            additive="sum"
+        />
+        <use href="#windmill-blade" transform="rotate(0)"/>
+        <use href="#windmill-blade" transform="rotate(120)"/>
+        <use href="#windmill-blade" transform="rotate(240)"/>
+    </g>
+</svg>
