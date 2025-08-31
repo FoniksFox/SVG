@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="100%" height="100%" viewBox="0 0 800 800">
+  <defs>
+    <path id="star" x="0" y="0" width="10" height="10" fill="#ffffff" d="M0,5 A5,5,90,0,1,5,0 A5,5,90,0,1,0,-5 A5,5,90,0,1,-5,0 A5,5,90,0,1,0,5 Z"/>
+    <pattern id="starry" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+        <use xlink:href="#star" transform="translate(5, 5) scale(1)"/>
+        <use xlink:href="#star" transform="translate(40, 25) scale(0.7)"/>
+        <use xlink:href="#star" transform="translate(10, 80) scale(0.5)"/>
+        <use xlink:href="#star" transform="translate(27, 64) scale(0.8)"/>
+        <use xlink:href="#star" transform="translate(15, 46) scale(0.6)"/>
+        <use xlink:href="#star" transform="translate(70, 33) scale(0.8)"/>
+        <use xlink:href="#star" transform="translate(65, 58) scale(0.5)"/>
+        <use xlink:href="#star" transform="translate(58, 72) scale(0.7)"/>
+        <use xlink:href="#star" transform="translate(40, 80) scale(0.4)"/>
+        <use xlink:href="#star" transform="translate(35, 95) scale(0.6)"/>
+        <use xlink:href="#star" transform="translate(57, 90) scale(0.8)"/>
+        <use xlink:href="#star" transform="translate(87, 93) scale(0.7)"/>
+        <use xlink:href="#star" transform="translate(90, 70) scale(0.5)"/>
+        <use xlink:href="#star" transform="translate(82, 46) scale(0.6)"/>
+        <use xlink:href="#star" transform="translate(92, 25) scale(0.4)"/>
+        <use xlink:href="#star" transform="translate(45, 50) scale(1)"/>
+        <use xlink:href="#star" transform="translate(20, 10) scale(0.4)"/>
+        <use xlink:href="#star" transform="translate(53, 15) scale(0.6)"/>
+        <use xlink:href="#star" transform="translate(70, 5) scale(0.3)"/>
+    </pattern>
+  </defs>
+
+  <rect x="0" y="0" width="800" height="800" fill="url(#starry)"/>
+</svg>
